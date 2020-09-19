@@ -1,8 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #2d3748;
   color: #faf5ff;
+  font-family: "ABeeZee", sans-serif;
 }
 
 .tc {
   text-align: center;
+}
+
+.container {
+  margin: 0 15%;
+}
+
+nav {
+  background-color: #3c366b;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.nav-home {
+}
+.nav-ul {
+  margin: 1rem 10%;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+.nav-options {
+  display: flex;
+}
+.nav-options li {
+  margin: 0 20px;
 }
