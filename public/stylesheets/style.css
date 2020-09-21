@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,8 +9,8 @@
 }
 
 body {
-  background: url("https://source.unsplash.com/bZZp1PmHI0E/1600x900") no-repeat
-    center center/cover;
+  background-color: #310e68;
+  background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
   background-attachment: fixed;
   color: #faf5ff;
   line-height: 1.6;
@@ -37,7 +39,7 @@ nav {
   top: 0;
   z-index: 1;
   width: 100%;
-  height: 60px;
+  height: 4rem;
   display: flex;
   align-items: center;
 }
@@ -66,6 +68,10 @@ nav {
   color: #e53e3e;
 }
 
+.home-icon:hover {
+  color: #e53e3e;
+}
+
 .nav-options {
   display: flex;
 }
@@ -91,11 +97,18 @@ section p {
   font-size: 1.5rem;
 }
 
-section#home {
+/* section#home {
 }
 
 section#about {
 }
 
 section#contact {
+} */
+
+.enter-blog {
+  margin: 5rem 0 0 0;
+}
+.enter-blog h1 {
+  font-size: 3.5rem;
 }
